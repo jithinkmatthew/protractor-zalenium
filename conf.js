@@ -5,16 +5,20 @@ exports.config = {
     specs: ['spec.js'],
     
     
-    /* */
-    capabilities: {
-      browserName: 'chrome',
+    /* Conf - 1: Use this for running test in headless firefox */
     
-      chromeOptions: {
-         args: [ "--headless", "--disable-gpu", "--window-size=800,600" ]
-       }
-    },
+    // capabilities: {
+    //   browserName: 'chrome',
     
-    /* This configuration is working as expected */
+    //   chromeOptions: {
+    //      args: [ "--headless", "--disable-gpu", "--window-size=800,600" ]
+    //    }
+    // },
+
+
+    /* THIS IS WORKING AS EXPECTED */
+    /* Conf - 2: Use this for running test in headless chrome */
+    
     // capabilities: {
     //     browserName: 'firefox',
       
@@ -22,5 +26,23 @@ exports.config = {
     //        args: [ "--headless" ]
     //      }
     // }
+
+
+
+    /* Conf - 3: Use this for running test in chrome browser */
+
+    // capabilities: {
+    //   browserName: 'chrome'
+    // },
+
+
+
+    /* Conf - 4: Use this for running test in firefox browser */
+
+    // capabilities: {
+    //   browserName: 'firefox'
+    // }
+
+
 }
   

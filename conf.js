@@ -7,13 +7,13 @@ exports.config = {
     
     /* Conf - 1: Use this for running test in headless chrome */
     
-    // capabilities: {
-    //   browserName: 'chrome',
+    capabilities: {
+      browserName: 'chrome',
     
-    //   chromeOptions: {
-    //      args: [ "--headless", "--disable-gpu", "--window-size=800,600" ]
-    //    }
-    // },
+      'goog:chromeOptions': {
+         args: [ "--headless" ]
+       }
+    },
 
 
     /* THIS IS WORKING AS EXPECTED */

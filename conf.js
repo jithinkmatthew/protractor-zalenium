@@ -5,7 +5,7 @@ exports.config = {
     specs: ['spec.js'],
     
     
-    /* Conf - 1: Use this for running test in headless firefox */
+    /* Conf - 1: Use this for running test in headless chrome */
     
     // capabilities: {
     //   browserName: 'chrome',
@@ -17,7 +17,7 @@ exports.config = {
 
 
     /* THIS IS WORKING AS EXPECTED */
-    /* Conf - 2: Use this for running test in headless chrome */
+    /* Conf - 2: Use this for running test in headless firefox */
     
     // capabilities: {
     //     browserName: 'firefox',

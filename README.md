@@ -13,5 +13,6 @@
    When using 
     
      'conf - 1' in `conf.js`, new browser window is opening in one of my zalenium node.
+     
      'conf - 2' in `conf.js`, it is working as expected. Showing fade browser icon in one of the node.
      
